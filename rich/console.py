@@ -2531,7 +2531,7 @@ class Console:
                             _class=f"{unique_id}-{class_name}",
                             x=x * char_width,
                             y=y * line_height + char_height,
-                            textLength=char_width * len(text),
+                            textLength=char_width * text_length,
                             clip_path=f"url(#{unique_id}-line-{y})",
                         )
                     )
